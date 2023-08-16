@@ -93,24 +93,7 @@ public class PharmMain {
 			System.out.println("Wrong input!!");
 		}
 
-//		iPharmaService.deleteItem("Dolo650");
-//
-//		iPharmaService.findByItem("Hipo");
-//
-//		System.out.println(iPharmaService.findAll());
-//
-//		try {
-//			iPharmaService.findByDisease("cough").forEach(System.out::println);
-//		} catch (ItemNotFoundException e) {
-//			e.printStackTrace();
-//		}
-//		try {
-//			iPharmaService.findByType("Syrup").forEach(System.out::println);
-//		} catch (ItemNotFoundException e) {
-//			e.printStackTrace();
-//		}
 	List<String> orderItemList = Arrays.asList("Dolo650", "cipla");
 	System.out.println(iPharmaService.addOrder(orderItemList));
-//
 	}
 }
