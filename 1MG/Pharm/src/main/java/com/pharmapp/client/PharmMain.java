@@ -85,7 +85,7 @@ public class PharmMain {
 				
 
 			default:
-				System.out.println("Wrong Input");
+				
 				break;
 			}
 
@@ -93,7 +93,6 @@ public class PharmMain {
 			System.out.println("Wrong input!!");
 		}
 
-	List<String> orderItemList = Arrays.asList("Dolo650", "cipla");
-	System.out.println(iPharmaService.addOrder(orderItemList));
+	
 	}
 }
